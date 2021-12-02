@@ -2,7 +2,7 @@
 comparison of the starting NFL rookie QB, played min 5 games
 
 # Motivation:
-This year in the 2021 draft, eight quaterbacks(QBs) were taken in the first three rounds and according to NFL.com this is the most in draft history. With five of the QBs going in the first round and a couple expected to start the season, I wanted to analyze how successful they were compared to others in the draft class. Because many of the general QB stats are inconsistent game to game, I chose to find more advanced stats that were not only more stable by took the current game situation into consideration. My driving questionfor this data set is: How successful and efficient was the QB playing this year?
+This year in the 2021 draft, eight quaterbacks(QBs) were taken in the first three rounds and according to NFL.com this is the most in draft history. With five of the QBs going in the first round and a couple expected to start the season, I wanted to analyze how successful they were compared to others in the draft class. Because many of the general QB stats are inconsistent game to game, I chose to find more advanced stats that were not only more stable by took the current game situation into consideration. My driving question for this data set is: How successful and efficient were the rookie QBs playing this year?
 
 # Data Sources:
 ESPN: https://www.espn.com/nfl/qbr/_/view/weekly 
