@@ -13,8 +13,8 @@ I decided to collect data from the current NFL season. This means every week, th
 
 
 # Visualization:
-![Rookie's Games Won through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/Rookies%20QBR%20Weekly.png)
-This graph shows the comparison of the rookie QBs and their rating. The QB rating stat measures their efficiency during the game, taking other player's performance and the game state and quality of plays made into consideration. Additonally, this graph shows which weeks the Qb won their game. 
+![Rookie's Games Won through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/Rookie%20wins.png)
+This graph shows the comparison of the games each starting rookie has won this season. 
 
 ![Rookie's QB rating through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/RookieQBR.png)
 This graph reflects the five number summary of the rookie's QBR, the smaller the range of numbers, the more consistent. 
