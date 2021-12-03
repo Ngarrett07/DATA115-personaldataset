@@ -13,7 +13,7 @@ I decided to collect data from the current NFL season. This means every week, th
 
 
 # Visualization:
-![Rookie's Games Won through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/Rookie%20wins.png)
+![Rookie's Games Won through Week 12](https://github.com/Ngarrett07/DATA115-personaldataset/blob/main/RookieWins.png)
 This graph shows the comparison of the games each starting rookie has won this season. 
 
 ![Rookie's QB rating through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/RookieQBR.png)
