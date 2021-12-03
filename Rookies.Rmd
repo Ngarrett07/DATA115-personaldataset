@@ -63,7 +63,7 @@ Mills <- Rookies[30:35,]
 sum(Mills$Result == 'W')
 Fields <- Rookies[36:42, ]
 sum(Fields$Result == 'W')
-winning <- data.frame(Player=c('Lawerence','Jones','Wilson','Mills','Field'),number_of_wins=c(2,8,2,0,2))
+winning <- data.frame(Player=c('Lawerence','Jones','Wilson','Mills','Fields'),number_of_wins=c(2,8,2,0,2))
 ggplot(winning,aes(x=Player,y=number_of_wins)) + geom_col() + ggtitle('Rookie Wins')
 ```
 
