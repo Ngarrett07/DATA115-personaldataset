@@ -50,13 +50,21 @@ now I am looking at some box plots. I want to see the overall ranges which these
 ggplot(Rookies,aes(x=Player,y=EPA))+geom_boxplot()+ggtitle('Rookie\'s EPA')
 ggplot(Rookies,aes(x=Player,y=QB.Rating))+geom_boxplot()+ggtitle('Rookie\'s QBR')
 ggplot(Rookies,aes(x=Player,y=ANY.A))+geom_boxplot()+ggtitle('Rookie\'s ANY/A')
-ggplot(Rookies,aes(x=Result,y=ANY.A))+geom_boxplot()+ggtitle('Winner\'s vs Loser\'s ANY/A')
-ggplot(Rookies,aes(x=Result,y=EPA))+geom_boxplot()+ggtitle('Winner\'s vs Loser\'s EPA')
-ggplot(Rookies,aes(x=Result,y=QB.Rating))+geom_boxplot()+ggtitle('Winner\'s vs Loser\'s QBR')
-ggplot(Rookies,aes(x=Week,y=ANY.A))+geom_boxplot()+ggtitle('Weekly ANY/A')
-ggplot(Rookies,aes(x=Week,y=EPA))+geom_boxplot()+ggtitle('Weekly EPA')
-ggplot(Rookies,aes(x=Week,y=QB.Rating))+geom_boxplot()+ggtitle('Weekly QBR')
 ```
-
+now I will count their wins
+``` {r wins}
+Lawerence <- Rookies[1:11,]
+sum(Lawerence$Result == 'W')
+Jones <- Rookies[12:23,]
+sum(Jones$Result == 'W')
+Wilson <- Rookies[24:29,]
+sum(Wilson$Result == 'W')
+Mills <- Rookies[30:35,]
+sum(Mills$Result == 'W')
+Fields <- Rookies[36:42, ]
+sum(Fields$Result == 'W')
+winning <- data.frame(Player=c('Lawerence','Jones','Wilson','Mills','Field'),number_of_wins=c(2,8,2,0,2))
+ggplot(winning,aes(x=Player,y=number_of_wins)) + geom_col() + ggtitle('Rookie Wins')
+```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
