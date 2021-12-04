@@ -42,7 +42,9 @@ make a scatter plot to compare the stats to see if there is any correlation betw
 ggplot(data=Rookies, aes(x=QB.Rating, y=EPA, color=Player,shape=Result)) +geom_point()+ ggtitle('EPA vs QBR')
 ggplot(data=Rookies, aes(x=EPA, y=ANY.A, color=Player,shape=Result)) +geom_point()+ggtitle('ANY/A vs EPA')
 ggplot(data=Rookies, aes(x=ANY.A, y=QB.Rating, color=Player,shape=Result)) +geom_point()+ggtitle('QBR vs ANY/A')
-ggplot(data=Rookies, aes(x=Week, y = QB.Rating, color=Player,shape=Result)) +geom_point()+ggtitle('Rookie\'s QBR Weekly')
+ggplot(data=Rookies, aes(x=Week, y = QB.Rating, color=Player)) +geom_point()+ggtitle('Rookie\'s QBR Weekly')
+ggplot(data=Rookies, aes(x=Week, y = ANY.A, color=Player)) +geom_point()+ggtitle('Rookie\'s ANY.A Weekly')
+ggplot(data=Rookies, aes(x=Week, y = EPA, color=Player)) +geom_point()+ggtitle('Rookie\'s EPA Weekly')
 ```
 now I am looking at some box plots. I want to see the overall ranges which these qbs perform, the smaller the range, the more consistent their play is. I also look at wins vs losses to see if there is a significant difference in play. I checked week to week just to see how much variance in play between player there are in one week.
 
