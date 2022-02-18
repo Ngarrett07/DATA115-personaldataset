@@ -19,7 +19,7 @@ This graph shows the comparison of the games each starting rookie has won this s
 ![Rookie's QB rating through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/QBRscatter.png)
 This graph weekly performance of the rookie's QBR, average QB is 50. 
 
-![Rookie's Adjusted Net Yards per Attempt through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/ANY.Ascatter.png)
+![Rookie's Adjusted Net Yards per Attempt through Week 12](https://raw.githubusercontent.com/Ngarrett07/DATA115-personaldataset/main/ANYup.png)
 This graph reflects the four major plays a QB can commit, a touchdown, interception and sack and yards completed. The higher the ANY/A is the better. The interceptions are negatively weighted more than a touchdown thrown. 
 
 
